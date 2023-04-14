@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@608&family=Poppins:ital,wght@1,100;1,700&family=Red+Rose:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Putting the background image */
+
+body{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4)url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Red Rose', sans-serif;
+     box-shadow: black;
+     background-blend-mode: darken;
+}
+
+/* Over */
+
+/* Navbar */
+
+header{
+    display: flex;
+    color: white;
+    height: 50px;
+    width: 1536px;
+    background: transparent;
+    margin-top: 50px;
+}
+nav{
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: right;
+    background: transparent;
+    height: 50px;
+    width: 800px;
+}
+ul{
+    display: flex;
+    margin-top: 13px;
+    color: #ffc233;
+}
+.li1{
+    margin-left: 55px;
+}
+li{
+    margin-right: 50px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.white-logo img{
+    height: 40px;
+    width: 120px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.button01{
+    margin-left: 200px;
+}
+.button2{
+    height: 60px;
+    width: 220px;
+    margin-top: 5px;
+    background: rgba(255, 81, 95, 1);
+    outline: rgba(255, 81, 95, 1);
+    border: 2px solid rgba(255, 81, 95, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button1{
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    background: rgba(255, 81, 95, 1);
+    outline: rgba(255, 81, 95, 1);
+    border: 2px solid rgba(255, 81, 95, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-body{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 100px;
+    color: #ffc233;
+    font-weight: bolder;
+}
+footer{
+    float: right;
+    margin-top: 500px;
+    cursor: pointer;
+}
+
